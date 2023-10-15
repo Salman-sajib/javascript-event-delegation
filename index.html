@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>JavaScript Event Delegation</title>
+  </head>
+  <body>
+    <main>
+      <h1>Event Delegation</h1>
+
+      <p>
+        Event Delegation is a pattern based upon the concept of Event Bubbling.
+        It is an event-handling pattern that allows you to handle events at a
+        higher level in the DOM tree other than the level where the event was
+        first received.
+      </p>
+
+      <h3>Click on the name's of the language</h3>
+
+      <ul class="list">
+        <li>JavaScript</li>
+        <li>Ruby</li>
+        <li>Go</li>
+        <li>Php</li>
+        <li>Python</li>
+      </ul>
+
+      <button onclick="addElement()">Add new elemants</button>
+    </main>
+
+    <!-- Scripts -->
+    <script src="./main.js"></script>
+  </body>
+</html>
